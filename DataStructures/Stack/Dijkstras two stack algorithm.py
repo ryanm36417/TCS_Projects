@@ -4,6 +4,8 @@ equation = "(5+((2/4)*(2+3)))"
 operandStack = Stack()
 operatorStack = Stack()
 
+#WOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+
 for i in equation:
     if i.isdigit():
         operandStack.push(int(i))
