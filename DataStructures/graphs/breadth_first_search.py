@@ -38,7 +38,6 @@ def bfs_mod(node, end):
     while not queue.is_empty():
         node = queue.peek()
         queue.pop()
-        print(node)
         if node == end:
             return True
         for neighbour in graph[node]:
@@ -54,14 +53,14 @@ def get_path(node):
     if node in tracer:
         get_path(tracer[node])
 
-
+"""
 solvable = bfs_mod("A", "F")
 print(visited)
 print(solvable)
 print(tracer)
 get_path("F")
 print(path)
-
+"""
 
 
 

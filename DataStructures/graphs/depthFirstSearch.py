@@ -34,7 +34,7 @@ def dfs_modified(visited, graph, node, end):
                 return True
     return False
 
-
+"""
 depth_first_search(visited, graph, "A")
 print(visited)
 visited.clear()
@@ -43,3 +43,4 @@ solved = dfs_modified(visited, graph, "A", "E")
 print(visited)
 print(solved)
 visited.clear()
+"""
